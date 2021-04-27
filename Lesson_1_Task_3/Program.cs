@@ -32,7 +32,6 @@ namespace Lesson_1_Task_3
 
             Console.WriteLine($"Расстояние между точками А и В = {Length(x1, x2, y1, y2):F2}");
         }
-
         static double Length(int x1, int x2, int y1, int y2)
         {
             return Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
